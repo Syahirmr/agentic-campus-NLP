@@ -1,0 +1,43 @@
+# ============================================================
+# .gitignore — Agentic Campus NLP Project
+# ============================================================
+
+# --- Folder referensi dosen (hanya untuk belajar lokal, JANGAN push) ---
+contoh/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+.env
+.venv
+env/
+venv/
+
+# --- Model checkpoints & file besar ---
+models/*.ckpt
+models/*.ckpt.*
+models/*.h5
+models/*.keras
+*.pkl
+
+# --- Output data (opsional, uncomment jika tidak ingin push output prediksi) ---
+# data/outputs/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- Antigravity / Gemini agent internals ---
+.system_generated/
+.agents/
