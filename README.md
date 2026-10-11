@@ -1,6 +1,6 @@
 # Agentic Campus — Autonomous Research Topic Routing & Thesis Advisory Agent
 
-> Proyek Ujian Akhir Mata Kuliah **Natural Language Processing (NLP)** — pemetaan otomatis judul & abstrak skripsi mahasiswa Teknik Informatika ke dalam empat domain riset utama menggunakan pendekatan **Machine Learning** dan **Deep Learning**.
+> Proyek Tugas Mata Kuliah **Natural Language Processing (NLP)** — pemetaan otomatis judul & abstrak skripsi mahasiswa Teknik Informatika ke dalam empat domain riset utama menggunakan pendekatan **Machine Learning** dan **Deep Learning**.
 
 **Agentic Campus** adalah sebuah *routing agent* akademik yang bertugas membaca judul dan abstrak skripsi, memahami topiknya, lalu mengarahkannya ke bidang konsentrasi dosen pembimbing yang paling relevan. Sistem ini dibangun di atas tiga modul pemrosesan berurutan: **preprocessing**, **topic modeling**, dan **klasifikasi teks**.
 
@@ -58,8 +58,6 @@ Agentic Campus/
 │   │   └── data_clean.csv                         # korpus hasil preprocessing
 │   └── outputs/
 │       ├── df_with_topics.csv                     # hasil topic modeling (LDA)
-│       ├── df_with_predictions.csv                # prediksi + probabilitas
-│       ├── df_with_classification.csv             # hasil klasifikasi
 │       └── df_with_classification_predictions.csv # hasil inferensi seluruh korpus
 │
 ├── models/
